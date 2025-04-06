@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>ATM Stimulator</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="div_atm">
+      <p class="p-greet">Welcome to Business College ATM</p>
+
+      <br /><br />
+      <div class="pin">
+        <input id="pin" type="password" placeholder="PIN Number" />
+        <br /><br /><br />
+        <button id="pinBtn">ENTER</button><br />
+        <br />
+        <p id="message-frontpage" class="center"></p>
+      </div>
+      <div class="overlay hidden">
+        <div class="balance">
+          <small>Balance:</small>
+          <small id="balance">0</small>
+          <small>€</small>
+          <br /><br />
+        </div>
+        <input id="depositBox" type="number" placeholder="Deposit amount" />
+
+        <br />
+        <button id="depositBtn">DEPOSIT</button>
+        <br />
+
+        <input id="withdrawBox" type="number" placeholder="Withdraw amount" />
+
+        <br />
+        <button id="withdrawBtn">WITHDRAW</button>
+        <br />
+        <button id="exit">EXIT</button>
+
+        <div class="div-message">
+          <p id="message" class="center"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

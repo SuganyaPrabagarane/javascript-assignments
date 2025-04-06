@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: whitesmoke;
+}
+
+button {
+  background-color: 39874E;
+  padding: 4%;
+  width: 300px;
+  border-radius: 5px;
+  border-color: green;
+  color: white;
+}
+
+button:hover {
+  background-color: green;
+}
+
+input {
+  padding: 4%;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: inset;
+}
+
+.div_atm {
+  background-color: #cbcbcc;
+  height: 550px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 15vh;
+  margin-left: 50vh;
+  font-family: sans-serif;
+  box-shadow: inset 2px 2px 2px 2px rgb(173, 160, 148);
+}
+
+.div_atm .p-greet {
+  margin-top: 4vh;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 3vh;
+}
+.balance {
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+}
+.pin input,
+p {
+  margin-left: 7vh;
+  margin-top: 5vh;
+  align-items: start;
+}
+
+.pin button {
+  margin-left: 7vh;
+}
+
+.overlay {
+  position: fixed;
+  background-color: #cbcbcc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 24vh;
+  left: 57vh;
+  width: 400px;
+  height: 390px;
+  padding: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.div-message {
+  width: auto;
+  text-align: center;
+  font-size: 1.2rem;
+}

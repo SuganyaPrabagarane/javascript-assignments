@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(218, 227, 227);
+  padding: 10vh;
+}
+
+button {
+  background-color: rgb(6, 112, 6);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 15vh;
+  height: 5vh;
+}
+
+button:hover {
+  background-color: green;
+}
